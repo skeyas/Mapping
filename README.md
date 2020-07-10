@@ -1,2 +1,2 @@
 # Mapping
-Uses Google Maps to compute the optimal route through a series of user defined points.
+Uses Google Maps to compute the optimal route through a series of user defined points. If the user enters fewer than seven points, the program outputs the fastest route through them. If the user enters seven or more points, the program inserts each additional point into the existing route. In order to run this program, line 507 must be modified. "API_KEY" should be replaced with a Google API key.
